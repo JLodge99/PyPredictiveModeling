@@ -1,0 +1,19 @@
+List of data apis
+
+Coupe
+https://www.cargurus.com/Cars/price-trends/priceIndexJson.action?entityIds=lb35&startDate=2%2F10%2F2021
+
+Sedan
+https://www.cargurus.com/Cars/price-trends/priceIndexJson.action?entityIds=lb33&startDate=2%2F10%2F2021
+
+BMW F82 M4
+https://www.cargurus.com/Cars/price-trends/priceIndexJson.action?entityIds=d2258&startDate=2%2F10%2F2021
+
+BMW
+https://www.cargurus.com/Cars/price-trends/priceIndexJson.action?entityIds=m3&startDate=2%2F10%2F2021
+
+Chevrolet
+https://www.cargurus.com/Cars/price-trends/priceIndexJson.action?entityIds=m1&startDate=2%2F10%2F2021
+
+Dodge
+https://www.cargurus.com/Cars/price-trends/priceIndexJson.action?entityIds=m24&startDate=2%2F10%2F2021
