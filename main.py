@@ -9,6 +9,15 @@ from keras.models import Sequential
 from keras.layers import LSTM,Dropout,Dense
 from sklearn.preprocessing import MinMaxScaler
 
+def plotShit(foo:str):
+
+    data = pd.read_csv(foo, index_col='Time(ms)')
+    print(data)
+    plt.plot(data)
+    plt.xlabel("Time(ms)")
+    plt.ylabel("Price($)")
+    plt.show()
+
 # Fetch data from URL
 # Returns JSON
 def fetchData(URL):
@@ -28,6 +37,7 @@ def jsonToCsv(json, directory = "./Data", name = "data.csv"):
 if __name__ == "__main__":
     # execute only if run as a script
     print("Hello world")
+    plotShit("data.csv")
 
 # json_data = fetchData("https://www.cargurus.com/Cars/price-trends/priceIndexJson.action?entityIds=lb35&startDate=2%2F10%2F2021")
 # jsonToCsv(json_data, directory = "./Data/2_10_2021", name="coupe.csv")
